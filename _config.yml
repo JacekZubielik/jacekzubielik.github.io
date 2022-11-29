@@ -81,7 +81,7 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: /assets/another-life-ico-400x400.png
+avatar: "/assets/another-life-ico-400x400.png"
 # boolean type, the global switch for ToC in posts.
 toc: true
 
@@ -188,6 +188,8 @@ exclude:
   - gulpfile.js
   - node_modules
   - package*.json
+  - Gemfile.lock
+  - docs/
 
 jekyll-archives:
   enabled: [categories, tags]
