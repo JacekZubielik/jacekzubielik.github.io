@@ -172,7 +172,7 @@ Spróbujmy dowiedzieć się więcej o konfiguracji, którą stworzył dla nas Va
 
 Klikając ikonę "Informacje" lub "Wyświetl - > szczegóły", powinieneś również zobaczyć konfigurację maszyny, w tym takie rzeczy, jak podłączone dyski wirtualne i interfejsy sieciowe.
 
-![virt-manager-two](/assets/posts/vagrant-libvirt/virtual-manager-k3s.png)
+![virt-manager](/assets/posts/k3s-playbook/virtual-manager-k3s.png)
 
 Oczywiście możemy również uzyskać te - a nawet więcej - informacje za pomocą wiersza poleceń klienta **virsh**. Najpierw uruchom `virsh list`, aby wyświetlić listę wszystkich domen (tj. Maszyn wirtualnych).
 
