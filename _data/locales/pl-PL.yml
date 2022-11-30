@@ -1,0 +1,82 @@
+# The layout text of site
+
+# ----- Commons label -----
+
+layout:
+  post: Post
+  category: Kategoria
+  tag: Tag
+
+# The tabs of sidebar
+tabs:
+  # format: <filename_without_extension>: <value>
+  home: Home
+  categories: Kategorie
+  tags: Tags
+  archives: Archiwa
+  about: O mnie
+
+# the text displayed in the search bar & search results
+search:
+  hint: szukaj
+  cancel: anuluj
+  no_results: Ups! Nie znaleziono wyników.
+
+panel:
+  lastmod: Ostatnio zaktualizowane
+  trending_tags: Ważniejsze Tagi
+  toc: Zawartość
+
+copyright:
+  # Shown at the bottom of the post
+  license:
+    template: Ten post jest objęty licencją :LICENSE_NAME udzieloną przez autora.
+    name: CC BY 4.0
+    link: https://creativecommons.org/licenses/by/4.0/
+
+  # Displayed in the footer
+  brief: Niektóre prawa zastrzeżone.
+  verbose: >-
+    O ile nie zaznaczono inaczej, wpisy na blogu w tej witrynie są objęte licencją Creative Commons Attribution 4.0 International (CC BY 4.0) udzieloną przez autora.
+
+meta: Powered by :PLATFORM with :THEME theme.
+
+not_found:
+  statment: Przepraszamy, zgubiliśmy ten adres URL lub wskazuje on na coś, co nie istnieje.
+
+notification:
+  update_found: Dostępna jest nowa wersja treści.
+  update: Aktualizacja
+
+# ----- Posts related labels -----
+
+post:
+  written_by: Przez
+  posted: Opublikowany
+  updated: Odświeżony
+  words: słów
+  pageview_measure: wyświetleń
+  read_time:
+    unit: min
+    prompt: czytania
+  relate_posts: Dalsza lektura
+  share: Udostępnij
+  button:
+    next: Nowsze
+    previous: Starsze
+    copy_code:
+      succeed: Skopiowane!
+    share_link:
+      title: Skopiuj link
+      succeed: Link skopiowany pomyślnie!
+  # pinned prompt of posts list on homepage
+  pin_prompt: Przypięty
+
+# categories page
+categories:
+  category_measure:
+    singular: kategoria
+    plural: kategorie
+  post_measure:
+    singular: post
+    plural: posty
